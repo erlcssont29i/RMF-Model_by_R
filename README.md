@@ -67,7 +67,7 @@ sales<-cbind(sales,date_gap)
 
 
 
-### 3.以customer(id) 為分類進行加總求R,M,F value
+### 3.以customer(id) 為分類求R,M,F value
 
 總消費金額(M)，總消費次數(F)，最近一次消費距今天數(R)，SQL中group by的概念，在Ｒ就是用aggregate()
 
@@ -103,7 +103,7 @@ salesRMF<-merge(salesM,merge(salesF,salesR))
 
 
 
-### 5.Creating RMF Model
+### 5.Creating RMF Levels
 
 ```R
 salesRMF$rank_r<-cut(salesRMF$R,5,label=F)#labels=F:返回在第幾個區間，否則會顯示具體的區間

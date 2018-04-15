@@ -2,7 +2,7 @@
 
 ## introduction
 
-This article(http://www.idatacamp.com/1196.html/) reminds me that when I  work in a stratup comapny 5 years ago,  I also used RMF model to analyze clients in order to choose a good customer for good quality. Let me practice again and explain how each functon do.
+This article(http://www.idatacamp.com/1196.html/) reminds me that when I  work in a stratup comapny 5 years ago,  I also used RMF model to analyze clients in order to choose a good customer for good quality. Let me practice again and explain how each function do.
 
 - Recency – How recently did the customer purchase?
 

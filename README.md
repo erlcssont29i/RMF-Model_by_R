@@ -1,6 +1,6 @@
 # RMF model by R
 
-This article(http://www.idatacamp.com/1196.html/) reminds me that when I  work at a starup comapny 5 years ago,  
+This article(http://www.idatacamp.com/1196.html/) reminds me that when I  work at a startup company 5 years ago,  
 I also used RMF model to analyze clients in order to choose a good customer for good quality.
 Let me practice again.
 

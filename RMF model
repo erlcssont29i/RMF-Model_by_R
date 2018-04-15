@@ -1,5 +1,5 @@
 #因為沒有真實資料，所以先創建raw_data
-~~~sales<-data.frame(
+sales<-data.frame(
 id=sample(1:5,replace=T,size=20),spend=abs(round(rnorm(n=20,mean=500,sd=300))),
 date=as.Date("2017/1/1")+300*sort(stats::runif(20))
 ) #5個人(1:5)重複抽取20次（當作為20個購買紀錄)

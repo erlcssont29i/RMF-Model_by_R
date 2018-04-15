@@ -103,7 +103,7 @@ salesRMF<-merge(salesM,merge(salesF,salesR))
 
 
 
-### Creating RMF Model
+### 5.Creating RMF Model
 
 ```R
 salesRMF$rank_r<-cut(salesRMF$R,5,label=F)#labels=F:返回在第幾個區間，否則會顯示具體的區間

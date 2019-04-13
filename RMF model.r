@@ -23,7 +23,7 @@ names(salesM)<-c("id","M")
 names(salesF)<-c("id","F")
 names(salesR)<-c("id","R")
 
-#將它們組合成一個data_frame
+#組合成一個data_frame
 salesRMF<-merge(salesM,merge(salesF,salesR)) 
 
 
